@@ -11,60 +11,87 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="Hello World!"
+        android:scrollbarFadeDuration="250"
+        android:text="REGISTRATION FORM"
+        android:textColor="#190A0A"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/etname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="35dp"
         android:ems="10"
+        android:hint="ENTER YOUR NAME"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:minHeight="48dp"
+        android:textColor="#150A0A"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/etemail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="35dp"
         android:ems="10"
+        android:hint="ENTER YOUR EMAIL"
         android:inputType="textEmailAddress"
-        android:text="email"/>
+        android:minHeight="48dp"
+        android:textColor="#190C0C"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
 
     <EditText
-        android:id="@+id/editTextNumberPassword"
+        android:id="@+id/etpassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="35dp"
         android:ems="10"
+        android:hint="ENTER YOUR PASSWORD"
         android:inputType="numberPassword"
-        android:text="password"/>
+        android:minHeight="48dp"
+        android:textColor="#1E0E0E"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
 
     <EditText
-        android:id="@+id/editTextNumberPassword2"
+        android:id="@+id/etconfirmpassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="35dp"
         android:ems="10"
+        android:hint="CONFIRM YOUR PASSWORD"
         android:inputType="numberPassword"
-        />
+        android:minHeight="48dp"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/etphonenumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="35dp"
         android:ems="10"
-        android:inputType="phone" />
+        android:maxLength="10"
+        android:hint="ENTER YOUR PHONE NUMBER"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:textColor="#190A0A"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnregister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        android:text="register" />
 
 </LinearLayout>
